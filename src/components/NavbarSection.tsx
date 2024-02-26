@@ -25,6 +25,7 @@ const NavbarSection = ({ className }: { className?: string }) => {
             <HoveredLink href="/courses">CSS</HoveredLink>
             <HoveredLink href="/courses">JAVASCRIPT</HoveredLink>
             <HoveredLink href="/courses">REACT JS</HoveredLink>
+            <HoveredLink href="/courses">Node JS</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contect Us"></MenuItem>
